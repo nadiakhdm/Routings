@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Login from "./Login";
-import { Routes } from "./Routes";
+
 import Layoute from "./Layoute";
 
 export const Privaitroute = ({ children, ...rest }) => {
